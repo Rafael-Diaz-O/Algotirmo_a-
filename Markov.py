@@ -9,6 +9,7 @@ transition_matrix = [
     [0.8, 0.15, 0.05],  # Transiciones a partir de "Soleado"
     [0.2, 0.6, 0.2],    # Transiciones a partir de "Nublado"
     [0.25, 0.25, 0.5]   # Transiciones a partir de "Lluvioso"
+
 ]
 
 # Estado inicial
