@@ -1,4 +1,4 @@
-# 1. Creando la Red Bayesiana
+# 1. Creando la Red Bayesiana estatica 
 probabilidades = {
     "HistorialCompras": {0: 0.7, 1: 0.3},  # 0: No tiene historial, 1: Tiene historial
     "TiempoEnElSitio": {0: 0.6, 1: 0.4},   # 0: Poco tiempo, 1: Mucho tiempo
