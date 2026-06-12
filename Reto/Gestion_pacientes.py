@@ -2,10 +2,10 @@ class BaseDeConocimiento:
 
  def __init__(self):
     self.hechos = []
-    delf.reglas = []
+    self.reglas = []
 
  def  agregar_hecho(self,hecho):
-   self.hechos.append(hecho)
+   self.hechos.append(hecho) #El metodo append agrega valores al final de mi lista llamada hechos 
 
  def agregar_regla(self,condicion,conclusion):
    self.reglas.append((condicion,conclusion))  
@@ -33,8 +33,8 @@ base.agregar_hecho("Fierbre alta")
 base.agregar_hecho("tos")
 
 #Agregando reglas 
-base.agregar_regla(["fierbre alta","tos"],"ifección respiratoria")
-base.agregar_regla(["infeccion respiraoria","dificultad para respirar"],"neumonía")
+base.agregar_regla(["fiebre alta","tos"],"ifección respiratoria")
+base.agregar_regla(["infección respiraoria","dificultad para respirar"],"neumonía")
 
 #Creando el sistema experto 
 sistema = SistemaExperto(base)
